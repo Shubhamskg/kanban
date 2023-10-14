@@ -17,3 +17,6 @@
 .bg-icon{
     color: blue;
 }
+.bg-c-icon{
+    cursor: pointer;
+}
