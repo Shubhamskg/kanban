@@ -1,5 +1,7 @@
 import "./App.css";
 import Board from "./components/Board";
+import img from "./powered_by.png";
+import sk from "./pic2.jpeg"
 import { useEffect,useState } from "react";
 import { groupList, orderList, priorityMap,ordering, groups } from "./data/data";
 import { VscSettings } from "react-icons/vsc";
@@ -140,7 +142,8 @@ function App() {
 
     return (
         <article>
-            <header>
+            <header >
+                <div className="head">
                 <div className="sl-cnt">
                     <div
                         className="disp-btn brd-crv pointer"
@@ -191,6 +194,13 @@ function App() {
                         </div>
                     ) : null}
                 </div>
+                {/* <div className="imgCnt"> */}
+                    <img src={img} alt="" className="img" />
+                    {/* <PiUserCirclePlusFill className="user"/> */}
+                    <img src={sk} alt="" className="user" />
+                {/* </div> */}
+                </div>
+
             </header>
             <main className="main-cnt">
                 <div className="brd-grd-cnt">

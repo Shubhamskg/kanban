@@ -1,7 +1,11 @@
 header {
   padding: 1rem 2rem;
   border-bottom: 1px solid #dae2ec;
-  
+ 
+}
+.head{
+  display: flex;
+  flex-direction: row;
 }
 
 .main-cnt {
@@ -78,4 +82,41 @@ header {
       grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   }
   
+}
+.sl-cnt{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.imgCnt{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.img{
+  height: 50px;
+  width: 200px;
+  margin: auto;
+  display: flex;
+  margin-left: 37%;
+  justify-content: center;
+  align-items: center;
+}
+.user{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 2px solid gray;
+  cursor: pointer;
+}
+@media (max-width: 1000px) {
+  .sl-cnt{
+    margin-left: 3%;
+  }
+  .user{
+    visibility: hidden;
+  }
+  .img{
+    margin-left: 25%;
+  }
 }
