@@ -1,6 +1,7 @@
 header {
   padding: 1rem 2rem;
   border-bottom: 1px solid #dae2ec;
+  
 }
 
 .main-cnt {
@@ -12,6 +13,8 @@ header {
   align-items: center;
   gap: 1rem;
   padding: 0.5rem 1rem;
+  -webkit-box-shadow: 5px 2px 6px 5px rgba(200,200,200,0.27); 
+  box-shadow: 5px 2px 6px 5px rgba(200,200,200,0.27);
 }
 
 .sl-cnt {
@@ -74,4 +77,5 @@ header {
   .brd-grd-inn {
       grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   }
+  
 }

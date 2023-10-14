@@ -1,7 +1,10 @@
 .tkt-crd-cnt {
     width: 100%;
     padding: 1rem;
+    margin-bottom: 10px;
     max-width: 50rem;
+    -webkit-box-shadow: 5px 5px 6px 5px rgba(139,139,139,0.27); 
+box-shadow: 5px 5px 6px 5px rgba(139,139,139,0.27);
 }
 
 .tkt-crd-cnt .tkt-crd-head {

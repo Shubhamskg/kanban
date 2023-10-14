@@ -197,7 +197,7 @@ function App() {
                     <div className="brd-grd-inn">
                         {Object.keys(displayState).map((data) => {
                             return (
-                                <Board
+                                <Board className="gap"
                                     title={data}
                                     tickets={displayState[data]}
                                     key={data}
