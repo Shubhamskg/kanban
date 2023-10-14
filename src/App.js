@@ -38,6 +38,7 @@ function App() {
     });
     useEffect(() => {
       if (tickets === undefined) return;
+      // eslint-disable-next-line react-hooks/exhaustive-deps
       if (displayState.length === 0) {
           const ticketsGroupedByStatus = groupTicketsByProp(
               "status",
