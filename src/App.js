@@ -47,7 +47,7 @@ function App() {
           setDisplayState(ticketsGroupedByStatus);
           setLocalStorage("currentstate", ticketsGroupedByStatus);
       }
-  }, [tickets]);
+  }, [tickets,displayState]);
     useEffect(() => {
         const kanbanData = async () => {
             try {
