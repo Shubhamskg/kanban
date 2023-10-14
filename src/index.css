@@ -23,14 +23,14 @@ body::-webkit-scrollbar {
     width: 5px;
 }
 body::-webkit-scrollbar-thumb {
-    background: #173ead;
+    background: white;
     border-radius: 2rem;
 }
 body::-webkit-scrollbar-track {
-    background: #dae2ec;
+    background: white;
 }
 body::-webkit-scrollbar-thumb:hover {
-    background: #1d4ed8;
+    background: white;
 }
 @media only screen and (max-width: 37.5em) {
     html {
