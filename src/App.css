@@ -83,10 +83,13 @@ header {
   }
   
 }
-.sl-cnt{
+.sl-cnt .sl-popup{
   justify-content: center;
   align-items: center;
   display: flex;
+  flex-direction: column;
+  margin-left: 4%;
+  margin-top: -1%;
 }
 .imgCnt{
   justify-content: center;
