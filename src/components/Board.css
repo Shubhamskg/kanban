@@ -1,0 +1,19 @@
+.brd-cnt {
+    padding: 0.5rem;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+}
+.brd-cnt .brd-hdr {
+    padding-inline: 2.5px;
+    margin: 0 0 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.brd-cnt .brd-main {
+    gap: 1rem;
+    display: grid;
+}
+.bg-icon{
+    color: blue;
+}

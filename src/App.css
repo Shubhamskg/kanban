@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
+header {
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #dae2ec;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.main-cnt {
+  background-color: #faf9f9;
   min-height: 100vh;
+}
+.disp-btn {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 1rem;
+  padding: 0.5rem 1rem;
 }
 
-.App-link {
-  color: #61dafb;
+.sl-cnt {
+  max-width: max-content;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.flx-cnt {
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.brd-grd-cnt {
+  padding: 2.5rem;
+}
+.setting{
+  transform: rotate(90deg);
+}
+.brd-grd-inn {
+  display: grid;
+  gap: 10px;
+  height: 100%;
+  max-height: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.sl-ele {
+  width: 15rem;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  padding: 0.5rem;
+  border-radius: 5px;
+  text-transform: capitalize;
+}
+
+.sl-popup {
+  max-width: max-content;
+  padding: 1rem;
+  margin-top: 0.3rem;
+  position: absolute;
+  background-color: white;
+  z-index: 100000;
+}
+
+.sl-popup .flx-cnt {
+  align-items: center;
+}
+
+.show-modal {
+  display: block;
+}
+
+.hide-modal {
+  display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .brd-grd-inn {
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   }
 }

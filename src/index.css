@@ -1,13 +1,120 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Eczar:wght@400;500;600;700;800&display=swap");
+* {
+    margin: 0;
+    padding: 0;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    outline: none;
+}
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.6rem;
+}
+body::-webkit-scrollbar {
+    scroll-behavior: smooth;
+    width: 5px;
+}
+body::-webkit-scrollbar-thumb {
+    background: #173ead;
+    border-radius: 2rem;
+}
+body::-webkit-scrollbar-track {
+    background: #dae2ec;
+}
+body::-webkit-scrollbar-thumb:hover {
+    background: #1d4ed8;
+}
+@media only screen and (max-width: 37.5em) {
+    html {
+        font-size: 56.5%;
+    }
+}
+button {
+    background: none;
+    cursor: pointer;
+}
+h1 {
+    font-size: 6.4rem;
+}
+h2 {
+    font-size: 4rem;
+}
+h3 {
+    font-size: 2.8rem;
+}
+h4 {
+    font-size: 1.6rem;
+}
+h5 {
+    font-size: 1.2rem;
+}
+p,
+span {
+    font-size: small;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+    line-height: 1;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: #102a42;
+    cursor: pointer;
+}
+@media only screen and (max-width: 50em) {
+    h1,
+    h2,
+    h3,
+    h4 {
+        letter-spacing: var(--spacing);
+        text-transform: capitalize;
+        line-height: 1.25;
+    }
+    h1 {
+        font-size: 4.4rem;
+    }
+    h2 {
+        font-size: 3.2rem;
+    }
+    h3 {
+        font-size: 2rem;
+    }
+    h4 {
+        font-size: 1.4rem;
+    }
+}
+.bg-color-icon {
+    fill: slategray;
+}
+.bg-color-status-icon {
+    fill: #1d4ed8;
+}
+.flex-gap {
+    display: flex;
+    gap: 10px;
+}
+.brd-crv {
+    border: 1px solid #dae2ec;
+    border-radius: 5px;
+}
+.flex-align-center {
+    display: flex;
+    align-items: center;
+}
+.pointer {
+    cursor: pointer;
 }

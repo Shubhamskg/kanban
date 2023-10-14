@@ -1,0 +1,86 @@
+.tkt-crd-cnt {
+    width: 100%;
+    padding: 1rem;
+    max-width: 50rem;
+}
+
+.tkt-crd-cnt .tkt-crd-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tkt-crd-cnt .tkt-crd-hero {
+    max-width: 100%;
+    width: 100%;
+}
+.tkt-crd-cnt .tkt-crd-title {
+    max-width: 95%;
+    width: 100%;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-right: 2rem;
+    padding: 0.5rem 0;
+}
+
+.tkt-crd-cnt .tkt-tag-cnt {
+    max-width: max-content;
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+    height: max-content;
+}
+.sm{
+    height: 10px;
+    widows: 10px;
+}
+
+.tkt-crd-cnt .tkt-tag-cnt .alert-icon {
+    height: 100%;
+    padding: 2.8px 5px;
+    align-self: center;
+}
+
+.tkt-crd-cnt .tkt-tag-cnt .tkt-crd-tag {
+    height: 100%;
+    max-width: max-content;
+    display: flex;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    align-items: center;
+}
+.avatar-container {
+    display: inline-block;
+    position: relative;
+}
+
+.tkt-img-cnt {
+    position: relative;
+    border-radius: 50%;
+    height: 2.5rem;
+    width: 2.5rem;
+    display: flex;
+}
+
+.tkt-img-cnt .image {
+    object-fit: contain;
+    position: relative;
+    border-radius: 50%;
+    height: unset;
+    width: 100%;
+}
+.tkt-avt-bdg {
+    border: 2px solid white;
+    display: inline-block;
+    background: lightgray;
+    border-radius: 50%;
+    position: absolute;
+    height: 0.75rem;
+    width: 0.75rem;
+    bottom: 0;
+    right: 0;
+}
+
+.tkt-avt-bdg.available {
+    background: green;
+}
