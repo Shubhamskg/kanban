@@ -105,6 +105,9 @@ header {
   justify-content: center;
   align-items: center;
 }
+.img:hover{
+  transform: scale(1.05);
+}
 .user{
   height: 40px;
   width: 40px;
